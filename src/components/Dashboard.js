@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import WeatherForm from './WeatherForm';
-import fetchWeatherData from '../lib/api';
+import fetchWeatherData from '../../lib/api';
 import {
   Chart as ChartJS,
   CategoryScale,

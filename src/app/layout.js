@@ -1,5 +1,5 @@
-import localFont from "next/font/local";
 import "./globals.css";
+
 
 
 export const metadata = {
@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className="bg-gradient-to-r from-cyan-500 to-blue-500"
+        
       >
         {children}
       </body>
