@@ -1,21 +1,44 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* .hover-row:hover .hover-button .view-button 
+    display: inline-block; /* Show the button when row is hovered */
+  
+  
+  /* .hover-button .view-button {
+    display: none; /* Initially hide the button */
+    /* .hover-row:hover .view-button {
+        display:flex; /* Show the "View" button when the row is hovered */
+      /* }
+      
+      .hover-row .view-button {
+        display: none; /* Initially hide the "View" button */
+      
+      
+      /* .hover-row:hover .preview-button {
+        display: none; /* Hide the "Preview" button on hover 
+      
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+      hover-row:hover .engagement-rate {
+        display: none; /* Hide the "Preview" button on hover 
+      } 
+
+      .hover-row:hover .view {
+        display: none; /* Hide the "Preview" button on hover 
+      }
+      
+      .show .show-button{
+        display: none;
+      }
+
+      .show:hover .show-button{
+        display:flex;
+      }
+      .hover-row:hover .view-button:hover .show-button {
+        display:flex; /* Show the "View" button when the row is hovered 
+      }
+       
+      */
